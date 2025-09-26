@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: MAGPS
+Version: 0.0.1
+Summary: A Library for guided policy search, based on Tianshou (version 0.5.1)
+Home-page: https://github.com/jamesjingqili/ma-gps
+Author: james.jingqi.li, Gechen Qu
+Author-email: james.jingqi.li@gmail.com, GechenQu@gmail.com
+License: MIT
+Keywords: reinforcement learning platform pytorch
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: gymnasium==0.28.1
+Requires-Dist: tqdm
+Requires-Dist: numpy==1.26.4
+Requires-Dist: tensorboard>=2.5.0
+Requires-Dist: torch==2.4.0
+Requires-Dist: numba>=0.51.0
+Requires-Dist: h5py>=2.10.0
+Requires-Dist: packaging
+Requires-Dist: matplotlib
+Requires-Dist: gym
+Requires-Dist: seaborn
+Requires-Dist: clarabel
+Requires-Dist: ipykernel
+Provides-Extra: dev
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx_rtd_theme; extra == "dev"
+Requires-Dist: jinja2; extra == "dev"
+Requires-Dist: sphinxcontrib-bibtex; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flake8-bugbear; extra == "dev"
+Requires-Dist: yapf; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ray>=1.0.0; extra == "dev"
+Requires-Dist: wandb>=0.12.0; extra == "dev"
+Requires-Dist: networkx; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pydocstyle; extra == "dev"
+Requires-Dist: doc8; extra == "dev"
+Requires-Dist: scipy; extra == "dev"
+Requires-Dist: pillow; extra == "dev"
+Requires-Dist: pygame>=2.1.0; extra == "dev"
+Requires-Dist: pymunk>=6.2.1; extra == "dev"
+Requires-Dist: nni<3.0,>=2.3; extra == "dev"
+Requires-Dist: pytorch_lightning; extra == "dev"
+Requires-Dist: gym>=0.22.0; extra == "dev"
+Requires-Dist: shimmy; extra == "dev"
+Requires-Dist: ffmpeg-python; extra == "dev"
+Requires-Dist: gymnasium[mujoco]>=0.26.0; extra == "dev"
+Requires-Dist: seaborn; extra == "dev"
+Requires-Dist: envpool>=0.7.0; extra == "dev"
+Provides-Extra: atari
+Requires-Dist: atari_py; extra == "atari"
+Requires-Dist: opencv-python; extra == "atari"
+Provides-Extra: mujoco
+Requires-Dist: mujoco_py; extra == "mujoco"
+Provides-Extra: pybullet
+Requires-Dist: pybullet; extra == "pybullet"
