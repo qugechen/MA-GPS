@@ -1,6 +1,6 @@
 ## Multi-agent Guided Policy Search (MA-GPS)
 
-This repository contains the implementation of Guided Policy Search for Multi-Agent Non-cooperative Dynamic Games. We propose two different environments for testing our approach: one is three-unicycle platooning, and the other is six-player basketball training. If you are interested in learning more about this work, please refer to the following paper: Multi-Agent Guided Policy Search for Non-Cooperative Dynamic Games, J. Li*, G. Qu*. J. Choi, S. Sojoudi, C. Tomlin.
+This repository contains the implementation of Guided Policy Search for Multi-Agent Non-cooperative Dynamic Games. We propose two different environments for testing our approach: one is three-unicycle platooning, and the other is six-player basketball training. If you are interested in learning more about this work, please refer to the following paper: [Multi-Agent Guided Policy Search for Non-Cooperative Dynamic Games](https://arxiv.org/pdf/2509.24226), J. Li*, G. Qu*. J. Choi, S. Sojoudi, C. Tomlin.
 
 Our repo defines general-sum dynamic games using a customized gym env API. You can find general-sum dynamic games examples in /MAGPS/MARL_gym_envs/
 
