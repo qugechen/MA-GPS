@@ -25,13 +25,15 @@ Install instruction:
 
 Brief tutorial: we use `experiment_script/run_magps.py` to learn our policy. We visualize the results  in `experiment_script/eval_magps_three_unicycle.ipynb` and `experiment_script/eval_magps_six_basketball.ipynb`. 
 
-# Some sample training scripts:
+# Some sample training scripts, in the experiment_script folder:
 
 For three unicycle platooning
 
 > python run_magps.py --task Three_Unicycle_Game-v0 --critic-net 512 512 512 --actor-net 512 512 512 --epoch 15 --total-episodes 160 --gamma 0.99 --behavior-loss-weight 0.1 --batch-size 2048
 
 For six basketball players in training:
+
+You can easily evaluate the trained policy in the notebooks in the experiment_script folder: using eval_magps_six_basketball.ipynb and eval_magps_three_unicycle.ipynb
 
 > python run_magps.py --task basketball-v0 --critic-net 512 512 512 --actor-net 512 512 512 --epoch 15 --total-episodes 160 --gamma 0.99 --behavior-loss-weight 0.1 --batch-size 2048
 
