@@ -33,8 +33,7 @@ For three unicycle platooning
 
 For six basketball players in training:
 
-You can easily evaluate the trained policy in the notebooks in the experiment_script folder: using eval_magps_six_basketball.ipynb and eval_magps_three_unicycle.ipynb
-
 > python run_magps.py --task basketball-v0 --critic-net 512 512 512 --actor-net 512 512 512 --epoch 15 --total-episodes 160 --gamma 0.99 --behavior-loss-weight 0.1 --batch-size 2048
 
 
+You can easily evaluate the trained policy in the notebooks in the experiment_script folder: using eval_magps_six_basketball.ipynb and eval_magps_three_unicycle.ipynb
